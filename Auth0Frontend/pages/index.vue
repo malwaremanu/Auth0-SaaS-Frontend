@@ -46,7 +46,7 @@ export default {
       // Perform authentication logic here, for example, using an API or service
       // Once the authentication is successful, you can navigate the to the dashboard page using the $router object
 
-      this.$router.push("/dashboard");
+      this.$router.push("/callback");
     },
   },
 };
